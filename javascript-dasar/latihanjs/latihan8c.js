@@ -8,9 +8,9 @@ if (pilihanSuit.includes(pilihanUser)) {
   var pemenang;
   if (pilihanUser == pilihanKomputer) {
     pemenang = "seri";
-  } else if (pilihanUser == "gajah" && pilihanKomputer == "semut") {
+  } else if (pilihanUser == "batu" && pilihanKomputer == "kertas") {
     pemenang = "pemain";
-  } else if (pilihanUser == "semut" && pilihanKomputer == "orang") {
+  } else if (pilihanUser == "kertas" && pilihanKomputer == "gunting") {
     pemenang = "pemain";
   } else {
     pemenang = "komputer";
