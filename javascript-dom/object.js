@@ -1,13 +1,25 @@
+//object
 var siswa = new Object();
 siswa.namaDepan = "Echara";
-siswa.namaBelakang= "Pascha";
+siswa.namaBelakang = "Pascha";
 siswa.alamat = "Bandung";
-siswa.namaLengkap = function(){
- return this.namaDepan + "" + this.namaBelakang
- }
+siswa.namaLengkap = function () {
+  return this.namaDepan + " " + this.namaBelakang;
+};
 
- alert("Name :" + siswa.namaLengkap());
+//object JSON
+var siswa2 = {
+  namaDepan: "Celine",
+  namaBelakang: "Gracia",
+  alamat: "Bandung",
+  namaLengkap: function () {
+    return this.namaDepan + " " + this.namaBelakang;
+  },
+};
 
-// function namaLengkap(){
-   
-// } 
+alert("Name :" + siswa.namaLengkap());
+alert("Name : " + siswa2.namaLengkap());
+
+// function namaLengkap() {
+
+// // }
