@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+</head>
+<body>
+  <h3>Masukan Tulisan :</h3>
+  <input type="text" id="tulisan">
+  <input type="button" value="Cek" onclick="cektulisan()">
+
+  <script>
+
+    function cektulisan() {
+      var tulisan = document.getElementById("tulisan").value
+      alert("teks yang anda masukan adalah : " + tulisan);
+    }
+  </script>
+</body>
+</html>
