@@ -17,9 +17,9 @@ if (pilihanSuit.includes(pilihanUser)) {
   }
 
   if (pemenang === "pemain") {
-    alert("Hasil Permainan: \nPemain memilih: " + pilihanUser + "\nKomputer memilih: " + pilihanKomputer + "\nKAMU MENANG!");
-  } else if (pemenang === "komputer") {
     alert("Hasil Permainan: \nPemain memilih: " + pilihanUser + "\nKomputer memilih: " + pilihanKomputer + "\nKAMU KALAH!");
+  } else if (pemenang === "komputer") {
+    alert("Hasil Permainan: \nPemain memilih: " + pilihanUser + "\nKomputer memilih: " + pilihanKomputer + "\nKAMU MENANG!");
   } else {
     alert("Hasil Permainan: \nPemain memilih: " + pilihanUser + "\nKomputer memilih: " + pilihanKomputer + "\nSERI!");
   }
